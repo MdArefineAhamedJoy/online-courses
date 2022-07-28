@@ -25,7 +25,7 @@ footer{
   width: 100%;
 }
 .img-re{
-  width: 100%;
+  width: auto;
 } 
 
 @media screen and (max-width:576px){
@@ -37,6 +37,9 @@ footer{
   }
   .img-w{
     width: 90vw;
+  }
+  .img-re{
+    width: 100%;
   }
   }
   @media screen and (min-width: 577px)  and (max-width: 900px) {
