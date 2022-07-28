@@ -15,3 +15,17 @@ footer{
 .img-w{
   width: 50vh;
 }
+.font-size-h{
+ font-size: 2rem;
+}
+.font-size-p{
+  font-size: 1rem;
+}
+@media screen and (max-width:576px){
+  .font-size{
+    font-size:calc(1vw + .5rem) ;
+   }
+   .font-size-p{
+    font-size: calc(.5vw + .5rem) ;
+  }
+}
