@@ -24,9 +24,10 @@ footer{
 .img-w{
   width: 100%;
 }
-.img-resize{
-  width: auto;
-}
+.img-re{
+  width: 100%;
+} 
+
 @media screen and (max-width:576px){
   .font-size{
     font-size:calc(1vw + .5rem) ;
@@ -37,13 +38,11 @@ footer{
   .img-w{
     width: 90vw;
   }
-  .img-resize{
-      width: 100%;
   }
-}
-@media only screen and (min-width: 768px) and (max-width: 600px) {
-  .img-resize{
-    width: 100%;
-   
+  @media screen and (min-width: 577px)  and (max-width: 900px) {
+  
+  .img-re{
+    width: 40vw;
+    height: 100%;
   }
-}
+  }
