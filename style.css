@@ -12,3 +12,6 @@ footer{
 .bg-expart{
   background-color: rgba(210, 255, 240, 0.758);
 }
+.img-w{
+  width: 50vh;
+}
