@@ -8,5 +8,7 @@ footer{
   height: 50vh;
   width: 100%;
   background-color: black;
-  
+}
+.bg-expart{
+  background-color: rgba(210, 255, 240, 0.758);
 }
