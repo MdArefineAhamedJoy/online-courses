@@ -21,11 +21,29 @@ footer{
 .font-size-p{
   font-size: 1rem;
 }
+.img-w{
+  width: 100%;
+}
+.img-resize{
+  width: auto;
+}
 @media screen and (max-width:576px){
   .font-size{
     font-size:calc(1vw + .5rem) ;
    }
    .font-size-p{
     font-size: calc(.5vw + .5rem) ;
+  }
+  .img-w{
+    width: 90vw;
+  }
+  .img-resize{
+      width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 600px) {
+  .img-resize{
+    width: 100%;
+   
   }
 }
